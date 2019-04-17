@@ -1,0 +1,6 @@
+2019-04-16 14:13:33,760 INFO 81333 [Timer] /Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35186242ms at 2019-04-17 00:00:00.002
+2019-04-16 14:13:33,760 INFO 81333 [Timer] /Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35187240ms at 2019-04-17 00:00:01.000
+2019-04-16 14:13:33,651 INFO 81334 [egg-schedule]: register schedule /Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-16 14:13:33,651 INFO 81334 [egg-schedule]: register schedule /Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-16 16:39:31,890 INFO 81645 [egg-schedule]: register schedule /Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-16 16:39:31,890 INFO 81645 [egg-schedule]: register schedule /Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

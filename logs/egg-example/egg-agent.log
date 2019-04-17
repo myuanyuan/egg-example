@@ -1,0 +1,332 @@
+2019-04-16 14:13:32,627 INFO 81333 [egg:logger] init all loggers with options: {"dir":"/Users/yuanyuanmiao/Documents/temp/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-16 14:13:32,760 INFO 81333 [egg:core] dump config after load, 4ms
+2019-04-16 14:13:32,808 INFO 81333 [egg-watcher] Start watching: ["/Users/yuanyuanmiao/Documents/temp/egg-example/app","/Users/yuanyuanmiao/Documents/temp/egg-example/config","/Users/yuanyuanmiao/Documents/temp/egg-example/mocks","/Users/yuanyuanmiao/Documents/temp/egg-example/mocks_proxy","/Users/yuanyuanmiao/Documents/temp/egg-example/app.js"]
+2019-04-16 14:13:32,808 INFO 81333 [egg-watcher] Start watching: "/Users/yuanyuanmiao/Documents/temp/egg-example/app"
+2019-04-16 14:13:32,809 INFO 81333 [egg-watcher] Start watching: "/Users/yuanyuanmiao/Documents/temp/egg-example/config"
+2019-04-16 14:13:32,809 INFO 81333 [egg-watcher] Start watching: "/Users/yuanyuanmiao/Documents/temp/egg-example/mocks"
+2019-04-16 14:13:32,809 INFO 81333 [egg-watcher] Start watching: "/Users/yuanyuanmiao/Documents/temp/egg-example/mocks_proxy"
+2019-04-16 14:13:32,809 INFO 81333 [egg-watcher] Start watching: "/Users/yuanyuanmiao/Documents/temp/egg-example/app.js"
+2019-04-16 14:13:32,809 INFO 81333 [egg-watcher:agent] watcher start success
+2019-04-16 14:13:32,820 INFO 81333 [egg:core] dump config after ready, 4ms
+2019-04-16 16:39:30,558 WARN 81333 [agent:development] reload worker because /Users/yuanyuanmiao/Documents/temp/egg-example/config/plugin.js change
+2019-04-16 16:39:30,347 INFO 81333 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/yuanyuanmiao/Documents/temp/egg-example/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":42553642,"size":76,"blocks":8,"atimeMs":1555403970267.5537,"mtimeMs":1555403970268.5686,"ctimeMs":1555403970268.5686,"birthtimeMs":1554966261937.7585,"atime":"2019-04-16T08:39:30.268Z","mtime":"2019-04-16T08:39:30.269Z","ctime":"2019-04-16T08:39:30.269Z","birthtime":"2019-04-11T07:04:21.938Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-16 22:10:09,337 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 166011ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-16 22:37:54,911 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1625567ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-16 22:53:02,408 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 867483ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-16 23:09:41,318 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 978865ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-16 23:28:57,865 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1116535ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-16 23:45:07,464 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 929581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 00:08:58,286 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1410811ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 00:21:39,911 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 721603ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 00:48:21,766 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1541783ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 00:54:39,385 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 357597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 01:24:24,016 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1744619ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 01:26:24,651 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 80622ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 02:03:27,287 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 2202615ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 02:12:40,928 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 513618ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 02:37:16,538 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1435584ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 02:50:44,171 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 787619ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 03:10:03,787 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1119602ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 03:27:04,416 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 980611ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 03:47:55,045 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1230601ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 03:56:22,664 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 467600ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 04:22:38,005 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1535318ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 04:31:32,630 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 514609ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 05:01:26,244 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1753597ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 05:06:35,875 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 269613ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 05:37:56,494 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1860614ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 05:53:22,120 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 885616ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 06:13:46,733 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1184599ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 06:22:44,357 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 517615ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 06:48:02,835 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1458458ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 06:57:44,402 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 561561ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 07:23:20,025 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1495613ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 07:29:27,643 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 327610ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 07:55:06,283 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1518629ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 08:02:44,927 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 418594ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 08:32:28,559 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1743613ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 08:46:16,282 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 807719ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 09:04:57,908 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1081617ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 09:17:19,530 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 701609ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 09:40:30,282 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 1370748ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
+2019-04-17 09:42:12,524 ERROR 81333 nodejs.ClusterClientNoResponseError: client no response in 62224ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yuanyuanmiao/Documents/temp/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 81333
+hostname: yuanyuandeMacBook-Pro.local
+
